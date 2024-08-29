@@ -1,0 +1,31 @@
+{
+  "tsserver.trace.server": "verbose",
+  "typescript.suggest.completeFunctionCalls": true,
+  "tsserver.enable": true,
+  "javascript.suggest.completeFunctionCalls": true,
+  "javascript.format.enable": true,
+  "javascript.validate.enable": true,
+  "typescript.format.enable": true,
+  "diagnostic.enable": true,
+  "diagnostic.checkCurrentLine": true,
+  "diagnostic.refreshOnInsertMode": true,
+  "diagnostic.virtualTextCurrentLineOnly": false,
+  "typescript.validate.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.enable": true,
+  "eslint.run": "onType",
+  "eslint.codeActionsOnSave.mode": "all",
+  "suggest.noselect": false,
+  "eslint.options": {
+    "extensions": [".js", ".jsx", ".ts", ".tsx"]
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "prettier.enable": true,
+  "prettier.requireConfig": false,
+  "coc.preferences.formatOnSave": true
+}
